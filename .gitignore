@@ -1,0 +1,7 @@
+cbc.iml
+/build/
+/net/loveruby/cflat/parser/*.java
+*.o
+*.s
+*.a
+*.jar

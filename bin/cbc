@@ -9,4 +9,5 @@ srcdir_root="$(dirname "$(dirname "$cmd_path")")"
         net.loveruby.cflat.compiler.Compiler \
         -I"$srcdir_root/import" \
         -L"$srcdir_root/lib" \
+        -Wa,"--32" -Wl,"-melf_i386" \
         "$@"

@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: cbc:1.0.0
+    volumes:
+      - ./:/app_home
+    tty: true
